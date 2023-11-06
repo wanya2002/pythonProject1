@@ -1,8 +1,8 @@
 
-def par(a, b):
-    sum = a ** b
-    return sum
+def par(a, b = 10):
+    sum_pr = sum(a) * b
+    return sum_pr
 
 
-res = par(3, 3)
+res = par([2, 4, 6], 5)
 print(res)
