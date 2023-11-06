@@ -1,5 +1,8 @@
 
-x = iter(range(3))
+def par(a, b):
+    sum = a ** b
+    return sum
 
-print(next(x))
-print(next(x))
+
+res = par(3, 3)
+print(res)
