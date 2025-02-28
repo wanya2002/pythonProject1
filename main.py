@@ -4,5 +4,5 @@ def par(a, b = 10):
     return sum_pr
 
 
-res = par([2, 4, 6], 5)
+res = par([2, 4, 6], 15)
 print(res)
